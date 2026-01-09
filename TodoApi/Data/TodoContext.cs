@@ -10,5 +10,7 @@ namespace TodoApi.Data
         {
         }
         public DbSet<Todo> Todos { get; set; }
+        public DbSet<UsersModel> Users { get; set; }
+
     }
 }
