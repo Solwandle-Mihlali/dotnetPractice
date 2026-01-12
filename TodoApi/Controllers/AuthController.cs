@@ -11,6 +11,7 @@ namespace TodoApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    
 
     public class AuthController : ControllerBase
     {
